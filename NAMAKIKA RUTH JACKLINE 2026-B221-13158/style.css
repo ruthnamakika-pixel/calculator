@@ -1,0 +1,74 @@
+.{
+    display: flex;
+    padding: 0px;
+margin:0px;
+justify-content: center;
+text-align: center;
+box-sizing: border-box;
+font-family:  Georgia;
+}
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif ;  
+align-items: center;
+ display: flex;  
+ justify-content:center;
+background-color:#ffffff;
+align-items: center;
+}
+.keybord{
+    width:300px;
+    height: 500px;
+    background-color: black;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+input{
+    width: 200px;
+    height: 20px;
+    border: none;
+    padding: 20px;
+    background-color: rgb(98, 97, 97);
+    font-size: 50px;
+    text-align: right;
+    cursor: pointer;
+    border-radius: 10px;
+    color:#ffffff;
+}
+button{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 40px;
+    background-color: rgb(78, 77, 77);
+    cursor:pointer;
+    color: hwb(0 100% 0%);
+    background:rgb(72, 70, 70);
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+
+}
+input::placeholder{
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
+.know{
+    background-color:#ff9800;
+}
+.clear{
+    background-color:rgb(138, 136, 136) ;
+    color: black;
+}
+.juice{
+    width: 115px;
+}
+button:active{
+    color: #ff9800;
+}
